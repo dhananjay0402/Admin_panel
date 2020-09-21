@@ -1,0 +1,560 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.left-side-menu {
+  width: 240px;
+  background: linear-gradient(180deg, #8264c6 0%, #5d80e2 100%);
+  bottom: 0;
+  padding: 0px 0;
+  position: fixed;
+  transition: all 0.2s ease-out;
+  top: 70px;
+  box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
+  border-top: 1px solid rgba(204, 204, 204, 0.48);
+}
+.content-page {
+  margin-left: 240px;
+  overflow: hidden;
+  padding: 0 10px 5px 25px;
+  min-height: 80vh;
+  margin-top: 73px;
+  transition: all 0.2s ease-out;
+}
+
+#overview-10 {
+  position: relative;
+  height: auto;
+  background: #f7f9fc;
+}
+
+/* Overview start */
+
+.recent-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+
+.recent-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #7e7e7e;
+
+  opacity: 0.6;
+}
+
+.btn-primary {
+  background: #00c27a !important;
+  border-radius: 3px !important;
+  border-color: #00c27a !important;
+  width: 75px;
+  height: 25px;
+  margin-top: 8px;
+}
+
+.recent-10 {
+  position: absolute;
+  left: 384px;
+}
+
+.btn-primary h6 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+
+.card1 {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.2) !important;
+  border-radius: 10px !important;
+}
+
+.recent-9 h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #4f4f4f;
+  mix-blend-mode: normal;
+}
+
+.recent-hour h6 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+
+  color: #4f4f4f;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  left: -10px;
+  height: 134px;
+  border: 2px solid rgba(0, 0, 0, 0.125) !important;
+  align-items: center;
+}
+
+.card2 {
+  background: #ffffff;
+  border-radius: 10px;
+  height: 67px;
+}
+.card3 {
+  background: #ffffff;
+  border-radius: 10px;
+  height: 67px;
+}
+.card4 {
+  background: #ffffff;
+  border-radius: 10px;
+  height: 320px;
+}
+
+.social-10 img {
+  height: 65px;
+  width: 70px;
+}
+
+.social-11 h6 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+
+  text-align: center;
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+.social-11 p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 10px;
+  text-align: center;
+
+  color: #8760d0;
+  margin-bottom: 0;
+
+  opacity: 0.6;
+}
+
+.social-11 a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+
+  text-align: center;
+
+  color: #528af7;
+
+  opacity: 0.6;
+}
+
+.Doug-10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recent-card {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+/* OVERVIEW ENDS */
+
+/* ANALYTICS START */
+.profanalytic h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.anacard {
+  background: #ffffff;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.ana-10 h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+  margin-left: 15px;
+
+  margin-top: 20px;
+}
+
+.btn.btn-analy {
+  background: #00c27a;
+  border-radius: 5px;
+}
+
+.btn.btn-analy h6 {
+  font-family: Roboto;
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 15px;
+  color: #f2f2f2;
+}
+.button_connect {
+  padding-top: 22px;
+
+  text-align: center;
+}
+
+.analytic-11 {
+  margin-top: 71px;
+}
+
+.btn.btn-analytic-13 {
+  background: linear-gradient(90.17deg, #5d80e2 0.17%, #73b6e5 99.89%);
+  border-radius: 5px;
+}
+
+.btn.btn-analytic-13 h6 {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #f2f2f2;
+  mix-blend-mode: normal;
+}
+
+.analytic-14 {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.12);
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.this_week {
+  margin-top: 16px;
+}
+.this_week a {
+  text-decoration: none !important;
+}
+
+.btn-analytic-13 {
+  margin-top: 12px;
+}
+
+.analytic-16 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+
+  color: #000000;
+}
+
+.analytic-17 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #000000;
+}
+
+.head_font {
+  font-size: 11px;
+}
+
+.analytics-17 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+/* Analytics ENDS */
+
+/* Profile Setting start */
+
+.setting-10 h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.setting-11 {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.12);
+  border-radius: 10px;
+}
+
+.account-10 h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #5d80e2;
+}
+.account-11 h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.setting-12 {
+  background: #ffffff;
+  border-radius: 10px 0px 0px 0px;
+}
+
+.setting-12 h3 {
+  color: #5d80e2;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.setting-13 {
+  background: #e3ecf7;
+  border-radius: 10px 0px 0px 0px;
+}
+
+.setting-13 h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.setting-14 {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.12);
+  border-radius: 0px 10px 10px 10px;
+}
+
+.btn.btn-profile-10 {
+  background: linear-gradient(90.17deg, #5d80e2 0.17%, #73b6e5 99.89%);
+  border-radius: 5px;
+  width: 161px;
+}
+.total_top {
+  padding-top: 18px;
+}
+/* Profile Setting ends */
+
+/* Listing starts */
+
+.list-head {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.card_list {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.12);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.linecard {
+  background: linear-gradient(
+    180deg,
+    rgba(130, 100, 198, 0.1) 0%,
+    rgba(93, 128, 226, 0.1) 100%
+  );
+  mix-blend-mode: normal;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  margin: 0 20px;
+}
+.card-12 {
+  text-align: center;
+}
+
+.listingsbt-10 {
+  background: linear-gradient(90.17deg, #5d80e2 0.17%, #73b6e5 99.89%);
+  border-radius: 5px;
+  height: 40px;
+  width: 146px;
+}
+.gap-10 {
+  padding: 10px;
+}
+.textchange-10 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.res-list {
+  margin-top: 20px;
+  font-size: 13px;
+}
+.rest-list {
+  padding-top: 10px;
+}
+.page-align {
+  margin-top: 30px;
+}
+
+.bt-page-10 {
+  background: #00c27a;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.iteams-page {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.2);
+  border-radius: 5px;
+}
+
+/* listing ends */
+
+/* poromotionaladditional starts*/
+
+#overviewadditionalpromo {
+  background: #f7f9fc;
+  background-image: url("../src/images/frame1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+.child_div {
+  width: 33vw;
+  height: 75vh;
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.2);
+  border-radius: 10px;
+}
+
+.add_post {
+  margin: auto;
+  padding-top: 20px;
+}
+.rec_img img {
+  width: 20%;
+  margin: 2px;
+}
+
+.attach_doc p {
+  font-size: 13px;
+  padding-top: 6px;
+}
+.content_here {
+  background: #f7f9fc;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 163px;
+}
+
+.check_box {
+  padding-top: 10px;
+}
+
+.custom_btn1 {
+  padding: 8px 34px;
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.2);
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  color: linear-gradient(180deg, #8264c6 0%, #5d80e2 100%);
+  border: 1px solid blue;
+}
+.custom_btn2 {
+  padding: 8px 34px;
+  background: linear-gradient(90.17deg, #5d80e2 0.17%, #73b6e5 99.89%);
+  box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.2);
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  color: #ffffff;
+}
+.aja_tu a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 1220px) {
+  .content_here {
+    background: #f7f9fc;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 120px;
+  }
+  .custom_btn1 {
+    padding: 5px 20px;
+  }
+  .custom_btn2 {
+    padding: 5px 20px;
+  }
+}
+
+@media (max-width: 998px) {
+  .content_here {
+    background: #f7f9fc;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 50px;
+  }
+  .custom_btn1 {
+    padding: 3px 10px;
+  }
+  .custom_btn2 {
+    padding: 3px 10px;
+  }
+}
+
+/* poromotionaladditional ends*/
