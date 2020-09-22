@@ -13,19 +13,19 @@ function Listing() {
               <div className="row">
                 <div className="col-md-12">
                   <div className="row card-12 gap-10 textchange-10">
-                    <div className="col-md-3">Company name</div>
+                    <div className="col-md-3 ">Company name</div>
                     <div className="col-md-3">Address</div>
                     <div className="col-md-3"> Phone number</div>
                     <div className="col-md-3"> Action</div>
                   </div>
                   <hr className="linecard"></hr>
-                  <div className="row card-12">
-                    <div className="col-md-3 textchange-10">
+                  <div className="row card-12 ">
+                    <div className="col-md-3 textchange-10  ">
                       <img
                         src={require("../src/images/Rectangle 326.png")}
                         alt=""
                       />
-                      El Dorado
+                      <span className="el_dorado">El Dorado</span>
                     </div>
                     <div className="col-md-3 textchange-10 res-list">
                       <p>801 N Orange AVE rando, FL 32801</p>
@@ -46,7 +46,7 @@ function Listing() {
                         src={require("../src/images/Rectangle 326.png")}
                         alt=""
                       />
-                      El Dorado
+                      <span className="el_dorado">El Dorado</span>
                     </div>
                     <div className="col-md-3 textchange-10 res-list">
                       <p>801 N Orange AVE rando, FL 32801</p>
@@ -67,7 +67,7 @@ function Listing() {
                         src={require("../src/images/Rectangle 326.png")}
                         alt=""
                       />
-                      El Dorado
+                      <span className="el_dorado">El Dorado</span>
                     </div>
                     <div className="col-md-3 textchange-10 res-list">
                       <p>801 N Orange AVE rando, FL 32801</p>
@@ -88,7 +88,7 @@ function Listing() {
                         src={require("../src/images/Rectangle 326.png")}
                         alt=""
                       />
-                      El Dorado
+                      <span className="el_dorado">El Dorado</span>
                     </div>
                     <div className="col-md-3 textchange-10 res-list">
                       <p>801 N Orange AVE rando, FL 32801</p>
@@ -109,7 +109,7 @@ function Listing() {
                         src={require("../src/images/Rectangle 326.png")}
                         alt=""
                       />
-                      El Dorado
+                      <span className="el_dorado">El Dorado</span>
                     </div>
                     <div className="col-md-3 textchange-10 res-list">
                       <p>801 N Orange AVE rando, FL 32801</p>

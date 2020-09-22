@@ -378,7 +378,9 @@
 /* Profile Setting ends */
 
 /* Listing starts */
-
+.el_dorado {
+  padding-left: 10px;
+}
 .list-head {
   font-family: Roboto;
   font-style: normal;
@@ -450,6 +452,7 @@
   background: #ffffff;
   box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.2);
   border-radius: 5px;
+  padding: 6px;
 }
 
 /* listing ends */
