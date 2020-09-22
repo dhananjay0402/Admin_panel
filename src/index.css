@@ -305,6 +305,13 @@
 
 /* Profile Setting start */
 
+.profile_margin {
+  padding-top: 20px;
+}
+.acct_gap {
+  margin-top: 20px;
+}
+
 .setting-10 h3 {
   font-family: Roboto;
   font-style: normal;
@@ -319,7 +326,9 @@
   box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.12);
   border-radius: 10px;
 }
-
+.account-10 {
+  padding-top: 30px;
+}
 .account-10 h3 {
   font-family: Roboto;
   font-style: normal;
@@ -337,6 +346,7 @@
 .setting-12 {
   background: #ffffff;
   border-radius: 10px 0px 0px 0px;
+  padding-top: 10px;
 }
 
 .setting-12 h3 {
@@ -345,13 +355,35 @@
   font-style: normal;
   font-size: 16px;
   line-height: 21px;
+  padding: 0px 50px 10px 50px;
 }
 
 .setting-13 {
   background: #e3ecf7;
   border-radius: 10px 0px 0px 0px;
+  padding-top: 10px;
 }
-
+.avatar {
+  padding-top: 40px;
+  text-align: center;
+}
+.avatar img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.avatar p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  padding-top: 20px;
+}
+.form_gap {
+  padding-top: 40px;
+}
 .setting-13 h3 {
   font-family: Roboto;
   font-style: normal;
@@ -359,6 +391,7 @@
   font-size: 16px;
   line-height: 21px;
   color: rgba(0, 0, 0, 0.6);
+  padding: 0px 30px 10px 30px;
 }
 
 .setting-14 {
@@ -453,6 +486,9 @@
   box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.2);
   border-radius: 5px;
   padding: 6px;
+}
+.save_gap {
+  padding: 20px;
 }
 
 /* listing ends */
